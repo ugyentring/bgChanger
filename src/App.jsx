@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const App = () => {
-  const [color, setColor] = useState("white");
+  const [color, setColor] = useState();
 
   return (
     <div
